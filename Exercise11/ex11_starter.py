@@ -22,7 +22,7 @@ print("-" * 81)
 Belgium_list = Belgium.split(",")
 print(Belgium_list)
 
-#method .join concatenates list of substrings back into a single string, separated by ":" instead of ","
+# method .join concatenates list of substrings back into a single string, separated by ":" instead of ","
 # calls on the string ":" to insert itself between each substring
 print(":".join(Belgium_list))
 
